@@ -1,0 +1,114 @@
+
+/*slogan*/
+h3.slogan{
+	text-align: center;
+	font-family: Comic Sans MS;
+	padding-bottom: 40px;
+}
+/* titre(Johann et Arthur) */
+h1{
+	font-weight: bold;
+   	text-align: center;
+   	font-family: Comic Sans MS;
+}
+
+/* logo */
+div.logo{
+	padding-top: 25px;
+	
+}
+/* menu de navigation*/
+
+/*boutons*/
+nav.menu-nav ul li.btn a{
+	color: white;
+	text-decoration: none;
+	background-color: #FCDE8E;
+	padding: 8px;
+	color: black;
+	font-size: 28px;
+	font-family: Comic Sans MS;
+}
+/*barre de navigation*/
+nav.menu-nav{
+	background-color: #FCDE8E;
+	overflow: hidden;
+	position: fixed;
+	width:100%;
+	opacity: 0.9;
+	color: black;
+
+}
+
+/* style des boutons */
+nav.menu-nav ul li.btn{
+	list-style-type: none;
+	display: inline-block;
+}
+/*survolage des boutons*/
+nav.menu-nav ul li.btn:hover a{
+	background-color: #FFFAE1
+	
+
+}
+
+
+
+/*couleur de fond*/
+body{
+	background-color: #FFFAE1
+}
+/*partie de la course*/
+div#content div{
+	display: inline-block;
+	width: 48%;
+	margin: 15px;
+	padding-top: 50px;
+}
+/* texte a droite*/
+div#content div.rightbox{
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	vertical-align: 150px;
+}
+
+/* partie course,titre a droite */
+div#content div.rightbox h2{
+	text-decoration: underline;
+}
+/* partie tennis,texte a droite*/
+div#content2 div.rightbox{
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	vertical-align: 150px;
+	
+}
+/* toutes les divs(divisions) de #content2(partie tennis)*/
+div#content2 div{
+	display: inline-block;
+	width: 48%;
+	padding-top: 35px;
+	margin: 15px;
+}
+/* partie tennis, titre à droite */
+div#content2 div.rightbox h2{
+	text-decoration: underline;
+}
+/*partie contact(noms,...etc. */
+#contact{
+	display: flex;
+	justify-content: space-between;
+	margin: 50px;
+	font-family: Comic Sans MS;
+	align-items: center;
+}
+.contact-details{
+	display: flex;
+}
+
+/* pied de page*/
+footer{
+	padding-top: 100px;
+	text-align: center;
+	font-family: Comic Sans MS;
+}
